@@ -9,7 +9,7 @@ const Skills = () => {
 <main className='max-w-screen-2xl mx-auto lg:h-[40rem] md:h-[40rem] h-[30rem] bg-gray-200 w-full'>
   <hr />
   <div className='lg:pt-16 md:pt-20 sm:pt-[40px] pt-[30px]'>
-    <h3 className='flex justify-center text-4xl sm:text-5xl font-bold text-gray-900'>
+    <h3 className='flex justify-center text-4xl sm:text-5xl lg:text-4xl font-bold text-gray-900'>
       My <span className='text-pink-800 pl-4'>Skills</span>
     </h3>
     <p className='pt-10 text-gray-500 font-semibold flex justify-center mx-4 lg:mx-[14rem] text-[16px] sm:text-[18px]'>
@@ -24,7 +24,7 @@ const Skills = () => {
       </div>
     ))}
   </div>
-  <div className='flex flex-wrap mx-4 items-center justify-evenly font-bold md:text-2xl mt-4'>
+  <div className='flex flex-wrap mx-4 items-center justify-evenly font-semibold md:text-2xl mt-4'>
     <div className='flex-1 text-center'>Next.js</div>
     <div className='flex-1 text-center'>Tailwind CSS/Css</div>
     <div className='flex-1 text-center'>TypeScript</div>

@@ -21,7 +21,7 @@ const Home = () => (
           <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold flex justify-center pt-16">
             Hello I am
           </p>
-          <div className="  flex text-pink-900 lg:text-5xl xl:text-6xl md:text-4xl text-3xl font-bold  justify-center pt-5">
+          <div className="  flex text-pink-900 lg:text-4xl xl:text-6xl md:text-4xl text-3xl font-bold  justify-center pt-5">
             <Typewriter
               options={{
                 strings: ["Umm e Habiba","Full-Stack Developer"],
@@ -36,7 +36,7 @@ const Home = () => (
             web experiences from design to deployment.
           </p>
           {/* button */}
-          <div className="gap-2 lg:flex lg:pl-20 xl:pl-28 md:pl-10 sm:pl-4 pt-6 md:pt-8 block ">
+          <div className="gap-2 lg:flex lg:pl-16 xl:pl-28 md:pl-10 sm:pl-4 pt-6 md:pt-8 block ">
             <button className="hover:animate-shadow-pulse mt-2 px-3  sm:gap-1 md:gap-2 flex lg:px-2 sm:px-2 md:h-[55px] sm:h-[50px] justify-center items-center hover:border-pink-600 hover:border-[2px]  bg-black hover:bg-pink-500 rounded-[30px] sm:mt-4 ">
               <div className="">
                 <svg
@@ -109,7 +109,7 @@ const Home = () => (
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-24 mt-10"
+              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-24 lg:w-[120px] lg:pr-10 bg-slate-400 mt-10"
               height={500}
               width={500}
               src="/typescript.png"

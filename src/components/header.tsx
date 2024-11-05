@@ -30,7 +30,7 @@ const Header = () => {
           </div>
 
         {/* content div */}
-        <div className="hidden  sm:hidden md:hidden  md:font-medium lg:flex items-center text-gray-900  lg:text-[18px] lg:font-extrabold lg:gap-8">
+        <div className="hidden  sm:hidden md:hidden  md:font-medium lg:flex items-center text-gray-900  lg:text-[16px] lg:font-extrabold lg:gap-8">
           <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/">Home</Link></div>
           <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/about">About</Link></div>
           <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/projects">Projects</Link></div>
