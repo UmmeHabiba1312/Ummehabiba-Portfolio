@@ -1,101 +1,165 @@
+"use client";
+import React from "react";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import Link from "next/link";
+import AfterHero from "@/components/afterhero";
+import Services from "@/components/services";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
+// import { Carousels } from "@/components/projectcarosel";
+import Footer from "@/components/footer";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+const Home = () => (
+  <>
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-r from-pink-300 to-black h-[630px] w-[100vw]">
+      <div className="flex w-full h-[630px]">
+        {/* left div */}
+        <div className="flex-1 w-[50%] pt-10">
+          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold flex justify-center pt-16">
+            Hello I'm
+          </p>
+          <div className="  flex text-pink-900 lg:text-5xl xl:text-6xl md:text-4xl text-3xl font-bold  justify-center pt-5">
+            <Typewriter
+              options={{
+                strings: ["Umm e Habiba","Full-Stack Developer"],
+                autoStart: true,
+                loop: true,
+              }}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          </div>
+          <p className="text-gray-800 font-bold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[20px] md:text-[18px] text-[16px]  pt-5">
+            I'm Umm E Habiba, a full stack developer skilled in Next.js, <br />{" "}
+            TypeScript, and Tailwind CSS. I create efficient, seamless <br />{" "}
+            web experiences from design to deployment.
+          </p>
+          {/* button */}
+          <div className="gap-2 lg:flex lg:pl-20 xl:pl-28 md:pl-10 sm:pl-4 pt-6 md:pt-8 block ">
+            <button className="hover:animate-shadow-pulse mt-2 px-3  sm:gap-1 md:gap-2 flex lg:px-2 sm:px-2 md:h-[55px] sm:h-[50px] justify-center items-center hover:border-pink-600 hover:border-[2px]  bg-black hover:bg-pink-500 rounded-[30px] sm:mt-4 ">
+              <div className="">
+                <svg
+                  className="animate-bounce"
+                  width="17"
+                  height="16"
+                  viewBox="0 0 17 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.5 1C9.5 0.446875 9.05313 0 8.5 0C7.94688 0 7.5 0.446875 7.5 1V8.58438L5.20625 6.29063C4.81563 5.9 4.18125 5.9 3.79063 6.29063C3.4 6.68125 3.4 7.31563 3.79063 7.70625L7.79063 11.7063C8.18125 12.0969 8.81563 12.0969 9.20625 11.7063L13.2063 7.70625C13.5969 7.31563 13.5969 6.68125 13.2063 6.29063C12.8156 5.9 12.1812 5.9 11.7906 6.29063L9.5 8.58438V1ZM2.5 11C1.39688 11 0.5 11.8969 0.5 13V14C0.5 15.1031 1.39688 16 2.5 16H14.5C15.6031 16 16.5 15.1031 16.5 14V13C16.5 11.8969 15.6031 11 14.5 11H11.3281L9.9125 12.4156C9.13125 13.1969 7.86562 13.1969 7.08437 12.4156L5.67188 11H2.5ZM14 12.75C14.1989 12.75 14.3897 12.829 14.5303 12.9697C14.671 13.1103 14.75 13.3011 14.75 13.5C14.75 13.6989 14.671 13.8897 14.5303 14.0303C14.3897 14.171 14.1989 14.25 14 14.25C13.8011 14.25 13.6103 14.171 13.4697 14.0303C13.329 13.8897 13.25 13.6989 13.25 13.5C13.25 13.3011 13.329 13.1103 13.4697 12.9697C13.6103 12.829 13.8011 12.75 14 12.75Z"
+                    fill="#F8F8F8"
+                  />
+                </svg>
+              </div>
+              <p className="lg:font-bold sm:font-semibold  text-white ">
+                DOWNLOAD CV
+              </p>
+            </button>
+            <div className=" flex pt-6  lg:gap-4 md:gap-2 lg:pl-12 md:pl-4 sm:pl-2 sm:gap-2 ">
+              <div className="md:text-5xl text-4xl text-black hover:text-blue-400">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61561757791609"
+                  legacyBehavior
+                >
+                  <a target="_blank" rel="noopener noreferrer">
+                    <FaFacebookSquare className="" />
+                  </a>
+                </Link>
+              </div>
+              <div className="md:text-5xl text-4xl text-black hover:text-gray-700">
+                <Link href="https://x.com/UmmeHabiba1312" legacyBehavior>
+                  <a target="_blank" rel="noopener noreferrer">
+                    <FaSquareXTwitter />
+                  </a>
+                </Link>
+              </div>
+              <div className="md:text-5xl text-4xl text-black hover:text-blue-700">
+                <Link
+                  href="https://www.linkedin.com/in/umm-e-habiba-86bb722b6/"
+                  legacyBehavior
+                >
+                  <a target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin />
+                  </a>
+                </Link>
+              </div>
+              <div className="md:text-5xl text-4xl text-black hover:text-gray-600">
+                <Link
+                  href="https://github.com/UmmeHabiba1312"
+                  legacyBehavior
+                >
+                  <a target="_blank" rel="noopener noreferrer">
+                  <FaSquareGithub />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        {/* right div */}
+        <div className="flex-1 w-[50%] flex  lg:pl-12 pl-2 sm:pl-5">
+          <div className="pt-52 xl:pt-32 hidden lg:block">
+            <Image
+              className=" xl:h-[110px] xl:w-[150px] h-[90px]  pl-10"
+              height={500}
+              width={500}
+              src="/nextjs.png"
+              alt="nextjs"
+            />
+            <Image
+              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-24 mt-10"
+              height={500}
+              width={500}
+              src="/typescript.png"
+              alt="typescript"
+            />
+            <Image
+              className="h-[45px] w-[90px] xl:h-[79px] xl:w-[115px]  mt-20  pl-[45px]"
+              height={500}
+              width={500}
+              src="/html.png"
+              alt="css"
+            />
+          </div>
           <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            className=" h-[630px] md:w-[320px] lg:w-[310px]v xl:w-[390px]  sm:w-[350px] w-[270px] justify-center  text-center"
+            height={500}
+            width={500}
+            src="/hero.png"
+            alt="profile pic"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
-}
+          <div className="pt-48 xl:pt-32 hidden lg:block">
+            <Image
+              className="xl:h-[75px] xl:w-[75px]  h-[55px] w-[55px] rounded-xl"
+              height={500}
+              width={500}
+              src="/tailwindcss.png"
+              alt="tailwind"
+            />
+            <Image
+              className="xl:h-[110px] xl:w-[170px] h-[70px]   mt-10 xl:pl-14 pl-6"
+              height={500}
+              width={500}
+              src="/javascript.png"
+              alt="javascript"
+            />
+            <Image
+              className="h-[70px] w-[170px] xl:h-[105px] xl:w-[185px] mt-16 "
+              height={500}
+              width={500}
+              src="/css.png"
+              alt="html"
+            />
+          </div>
+        </div>
+      </div>
+      <AfterHero />
+      <Services />
+      {/* <Carousels/> */}
+    </main>
+  </>
+);
+
+export default Home;
