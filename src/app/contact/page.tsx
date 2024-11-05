@@ -20,9 +20,9 @@ import Footer from '@/components/footer';
 
 
 const Contact = () => {
-  const onSubmit = async (event:any) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
+    const formData = new FormData(event.target as HTMLFormElement);
 
     formData.append("access_key", "a4231176-5ba0-4537-b611-29fb018a22b7");
 

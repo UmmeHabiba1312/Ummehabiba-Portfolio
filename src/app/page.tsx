@@ -2,7 +2,7 @@
 import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
-import { FaSquareInstagram } from "react-icons/fa6";
+// import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import AfterHero from "@/components/afterhero";
@@ -10,7 +10,7 @@ import Services from "@/components/services";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 // import { Carousels } from "@/components/projectcarosel";
-import Footer from "@/components/footer";
+// import Footer from "@/components/footer";
 
 const Home = () => (
   <>
@@ -19,7 +19,7 @@ const Home = () => (
         {/* left div */}
         <div className="flex-1 w-[50%] pt-10">
           <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold flex justify-center pt-16">
-            Hello I'm
+            Hello I am
           </p>
           <div className="  flex text-pink-900 lg:text-5xl xl:text-6xl md:text-4xl text-3xl font-bold  justify-center pt-5">
             <Typewriter
@@ -31,7 +31,7 @@ const Home = () => (
             />
           </div>
           <p className="text-gray-800 font-bold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[20px] md:text-[18px] text-[16px]  pt-5">
-            I'm Umm E Habiba, a full stack developer skilled in Next.js, <br />{" "}
+            I am Umm E Habiba, a full stack developer skilled in Next.js, <br />{" "}
             TypeScript, and Tailwind CSS. I create efficient, seamless <br />{" "}
             web experiences from design to deployment.
           </p>
