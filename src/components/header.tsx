@@ -1,17 +1,17 @@
 import React from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
+  // SheetDescription,
+  // SheetHeader,
+  // SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
-import { Menu } from 'lucide-react'
+// import { Menu } from 'lucide-react'
 
 
 const Header = () => {
