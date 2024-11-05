@@ -102,14 +102,14 @@ const Home = () => (
         <div className="flex-1 w-[50%] flex  lg:pl-12 pl-2 sm:pl-5">
           <div className="pt-52 xl:pt-32 hidden lg:block">
             <Image
-              className=" xl:h-[110px] xl:w-[150px] h-[90px]  pl-10"
+              className=" xl:h-[110px] xl:w-[160px] h-[90px]  pl-10"
               height={500}
               width={500}
               src="/nextjs.png"
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-24 lg:w-[120px] lg:pr-10 bg-slate-400 mt-10"
+              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-[50px] lg:w-[120px] lg:pr-10 mt-10"
               height={500}
               width={500}
               src="/typescript.png"
@@ -132,21 +132,21 @@ const Home = () => (
           />
           <div className="pt-48 xl:pt-32 hidden lg:block">
             <Image
-              className="xl:h-[75px] xl:w-[75px]  h-[55px] w-[55px] rounded-xl"
+              className="xl:h-[75px] xl:w-[80px]  h-[55px] w-[55px] rounded-xl"
               height={500}
               width={500}
               src="/tailwindcss.png"
               alt="tailwind"
             />
             <Image
-              className="xl:h-[110px] xl:w-[170px] h-[70px]   mt-10 xl:pl-14 pl-6"
+              className="xl:h-[110px] xl:w-[180px] h-[70px]   mt-10 xl:pl-8 pl-6"
               height={500}
               width={500}
               src="/javascript.png"
               alt="javascript"
             />
             <Image
-              className="h-[70px] w-[170px] xl:h-[105px] xl:w-[185px] mt-16 "
+              className="h-[70px] w-[170px] xl:h-[105px] xl:w-[200px] mt-16 "
               height={500}
               width={500}
               src="/css.png"
