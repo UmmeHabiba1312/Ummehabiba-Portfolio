@@ -55,7 +55,7 @@ const Header = () => {
                 fill="#F8F8F8"
               />
             </svg></div>
-          <p className="lg:font-bold sm:font-semibold text-white ">DOWNLOAD CV</p></button></div>
+          <p className="lg:font-bold sm:font-semibold text-white "><Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link></p></button></div>
           {/* hamburger */}
       <div className='lg:hidden  '>
       <Sheet >

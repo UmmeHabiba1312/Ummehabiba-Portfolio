@@ -54,7 +54,7 @@ const Home = () => (
                 </svg>
               </div>
               <p className="lg:font-bold sm:font-semibold  text-white ">
-                DOWNLOAD CV
+              <Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link>
               </p>
             </button>
             <div className=" flex pt-6  lg:gap-4 md:gap-2 lg:pl-12 md:pl-4 sm:pl-2 sm:gap-2 ">
@@ -109,7 +109,7 @@ const Home = () => (
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[160px] xl:pr-[54px] lg:w-[120px] lg:pr-10 mt-10"
+              className="w-[45px] h-[45px] xl:h-[77px] xl:w-[160px] xl:pr-[54px] lg:w-[120px] lg:pr-10 mt-10"
               height={500}
               width={500}
               src="/typescript.png"
