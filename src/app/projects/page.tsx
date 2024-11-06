@@ -24,7 +24,7 @@ const Projects = () => {
           <div className='md:ml-14 ml-4'><h3 className='text-gray-100 font-bold text-[16px]  md:text-[20px] lg:text-[25px]   '>Ecommerce Shopping Website</h3> <p className= ' text-gray-400 font-medium text-[14px] sm:text-[16px]'>Built with Next.js and Tailwind CSS, our e-commerce site offers a fast, responsive, and seamless shopping experience.</p></div>
           <div className=' text-pink-600 text-4xl font-extrabold md:mr-8 hover:text-gray-500 mr-3'><Link href="https://ecommerce-shopping-web.vercel.app/" target="_blank" rel="noopener noreferrer"  ><BsArrowUpRightCircle /></Link></div>
         </div>
-        <div className='mt-4 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center '>
+        <div className='mt-5 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center '>
         <div className='ml-4 md:ml-7 h-[80px] flex items-center flex-1 text-pink-600 text-3xl md:text-5xl  font-bold'>02</div>
           <div className='ml-3 md:ml-10'>
              <Image
@@ -36,7 +36,7 @@ const Projects = () => {
           <div className='md:ml-14 ml-4'><h3 className='text-gray-100 font-bold text-[16px]  md:text-[20px]  lg:text-[25px]'>Travelling Website</h3> <p className= ' text-gray-400 text-[14px] sm:text-[16px]'>Our travel site, built with Next.js and Tailwind CSS, provides a sleek, responsive experience for exploring and booking trips.</p></div>
           <div className=' text-pink-600 text-4xl font-extrabold md:mr-8 hover:text-gray-500 mr-3'><Link href="https://travelling-website-design-by-figma.vercel.app/" target="_blank" rel="noopener noreferrer" ><BsArrowUpRightCircle /></Link></div>
         </div>
-        <div className='mt-4 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center'>
+        <div className='mt-5 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center'>
         <div className='ml-4 md:ml-7 h-[80px] flex items-center flex-1 text-pink-600 text-3xl md:text-5xl  font-bold'>03</div>
           <div className='ml-3 md:ml-10'>
              <Image
@@ -48,7 +48,7 @@ const Projects = () => {
           <div className='md:ml-14 ml-4'><h3 className='text-gray-100 font-bold text-[16px]  md:text-[20px] lg:text-[25px]'>Amazon Clone</h3> <p className= ' text-gray-400 text-[14px] sm:text-[16px]'>An Amazon clone was built with HTML, CSS, and JavaScript, featuring a responsive layout and interactive product pages.</p></div>
           <div className=' text-pink-600 text-4xl font-extrabold md:mr-8 mr-3 hover:text-gray-500'><Link href="http://127.0.0.1:5501/inedx.html" target="_blank" rel="noopener noreferrer"><BsArrowUpRightCircle /></Link></div>
         </div>
-        <div className='mt-4 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center'>
+        <div className='mt-5 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center'>
         <div className='ml-4 md:ml-7 h-[80px] flex items-center flex-1 text-pink-600 text-3xl md:text-5xl  font-bold'>04</div>
           <div className='ml-3 md:ml-10'>
              <Image

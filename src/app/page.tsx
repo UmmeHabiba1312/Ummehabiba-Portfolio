@@ -14,14 +14,14 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => (
   <>
-    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-r from-pink-300 to-black h-[630px] w-[100vw]">
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-r from-pink-300 to-black h-[630px] w-auto">
       <div className="flex w-full h-[630px]">
         {/* left div */}
         <div className="flex-1 w-[50%] pt-10">
-          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-5xl font-bold flex justify-center pt-16">
+          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-bold flex justify-center pt-16">
             Hello I am
           </p>
-          <div className="  flex text-pink-900 lg:text-4xl xl:text-6xl md:text-4xl text-3xl font-bold  justify-center pt-5">
+          <div className="  flex text-pink-900 lg:text-4xl xl:text-6xl md:text-5xl text-3xl font-bold  justify-center pt-5">
             <Typewriter
               options={{
                 strings: ["Umm e Habiba","Full-Stack Developer"],
@@ -30,7 +30,7 @@ const Home = () => (
               }}
             />
           </div>
-          <p className="text-gray-800 font-bold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[20px] md:text-[18px] text-[16px]  pt-5">
+          <p className="text-gray-800 font-semibold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[18px] md:text-[18px] text-[16px]  pt-5">
             I am Umm E Habiba, a full stack developer skilled in Next.js, <br />{" "}
             TypeScript, and Tailwind CSS. I create efficient, seamless <br />{" "}
             web experiences from design to deployment.
@@ -109,14 +109,14 @@ const Home = () => (
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[169px] xl:pr-[50px] lg:w-[120px] lg:pr-10 mt-10"
+              className="w-[45px] h-[45px] xl:h-[80px] xl:w-[160px] xl:pr-[54px] lg:w-[120px] lg:pr-10 mt-10"
               height={500}
               width={500}
               src="/typescript.png"
               alt="typescript"
             />
             <Image
-              className="h-[45px] w-[90px] xl:h-[79px] xl:w-[115px]  mt-20  pl-[45px]"
+              className="h-[45px] w-[95px] xl:h-[79px] xl:w-[115px]  mt-20  pl-[45px]"
               height={500}
               width={500}
               src="/html.png"
