@@ -102,21 +102,21 @@ const Home = () => (
         <div className="flex-1 w-[50%] flex  lg:pl-12 pl-2 sm:pl-5">
           <div className="pt-52 xl:pt-32 hidden lg:block">
             <Image
-              className=" xl:h-[110px] xl:w-[160px] h-[90px]  pl-10"
+              className=" xl:h-[105px] xl:w-[145px] h-[90px]  "
               height={500}
               width={500}
               src="/nextjs.png"
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[77px] xl:w-[160px] xl:pr-[54px] lg:w-[120px] lg:pr-10 mt-10"
+              className="w-[45px] h-[45px] xl:h-[65px] xl:w-[165px] xl:pr-[35px] lg:w-[120px] lg:pr-10 mt-10 mr-2"
               height={500}
               width={500}
               src="/typescript.png"
               alt="typescript"
             />
             <Image
-              className="h-[45px] w-[95px] xl:h-[79px] xl:w-[115px]  mt-20  pl-[45px]"
+              className="h-[45px] w-[95px] xl:h-[72px] xl:w-[115px]  mt-[94px]  pl-[40px]"
               height={500}
               width={500}
               src="/html.png"
@@ -124,29 +124,29 @@ const Home = () => (
             />
           </div>
           <Image
-            className=" h-[630px] md:w-[320px] lg:w-[310px]v xl:w-[390px]  sm:w-[350px] w-[270px] justify-center  text-center"
+            className=" h-[630px] md:w-[320px] lg:w-[310px]v xl:w-[390px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
             height={500}
             width={500}
             src="/hero.png"
             alt="profile pic"
           />
-          <div className="pt-48 xl:pt-32 hidden lg:block">
+          <div className="md:pt-52 xl:pt-32 pt-60 hidden lg:block">
             <Image
-              className="xl:h-[75px] xl:w-[80px]  h-[55px] w-[55px] rounded-xl"
+              className="xl:h-[75px] xl:w-[65px]  h-[55px] w-[55px] rounded-xl"
               height={500}
               width={500}
               src="/tailwindcss.png"
               alt="tailwind"
             />
             <Image
-              className="xl:h-[110px] xl:w-[180px] h-[70px]   mt-10 xl:pl-8 pl-6"
+              className="xl:h-[100px] xl:w-[140px] h-[70px]    mt-10 xl:pl-12 pl-6"
               height={500}
               width={500}
               src="/javascript.png"
               alt="javascript"
             />
             <Image
-              className="h-[70px] w-[170px] xl:h-[105px] xl:w-[200px] mt-16 "
+              className="h-[70px] w-[170px] xl:h-[90px] xl:w-[260px] mt-16  "
               height={500}
               width={500}
               src="/css.png"
