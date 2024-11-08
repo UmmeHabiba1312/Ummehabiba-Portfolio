@@ -57,7 +57,7 @@ const Home = () => (
               <Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link>
               </p>
             </button>
-            <div className=" flex pt-6  lg:gap-4 md:gap-2 lg:pl-12 md:pl-4 sm:pl-2 sm:gap-2 ">
+            <div className=" flex pt-6  lg:gap-4 md:gap-2 lg:pl-8 md:pl-4 sm:pl-2 sm:gap-2 ">
               <div className="md:text-5xl text-4xl text-black hover:text-blue-400">
                 <Link
                   href="https://www.facebook.com/profile.php?id=61561757791609"
