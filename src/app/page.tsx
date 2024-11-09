@@ -142,7 +142,7 @@ const Home = () => (
             />
 
             <Image
-              className="xl:h-[100px] xl:w-[150px]  h-[50px] w-[65px]    mt-10 lg:mt-14  xl:pl-12  sm:ml-7 ml-6 mr-14 sm:mr-0 "
+              className="xl:h-[100px] xl:w-[150px]  h-[50px] w-[65px]    mt-10 lg:mt-14  xl:pl-12  sm:ml-7 ml-6 mr-14 sm:mr-0 lg:mr-4"
               height={500}
               width={500}
               src="/javascript.png"
