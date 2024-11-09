@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BsArrowUpRightCircle } from 'react-icons/bs'
-import ProjectsHeader from '@/components/projectsheader'
 
 
 

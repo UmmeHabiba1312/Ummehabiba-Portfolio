@@ -1,6 +1,5 @@
 // "use client"
 import React from 'react'
-import { BsArrowUpRightCircle } from "react-icons/bs";
 import Footer from '@/components/footer';
 import ProjectsHeader from '@/components/projectsheader';
 import Nextjs from '../nextjs/page';

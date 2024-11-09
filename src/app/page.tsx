@@ -11,7 +11,6 @@ import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import AboutMe from "@/components/aboutus";
 import Skills from "@/components/myskills";
-// import { Carousels } from "@/components/projectcarosel";
 // import Footer from "@/components/footer";
 
 const Home = () => (
