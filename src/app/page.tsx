@@ -103,21 +103,21 @@ const Home = () => (
         <div className="flex-1 w-[100vw] flex  lg:pl-12  sm:pl-5 h-auto justify-center ">
           <div className="pt-[220px] xl:pt-28  ">
             <Image
-              className=" xl:h-[95px] xl:w-[130px] h-[60px] w-[65px]  ml-8"
+              className=" h-[60px] w-[65px]  ml-8"
               height={500}
               width={500}
               src="/nextjs.png"
               alt="nextjs"
             />
             <Image
-              className="w-[40px] h-[35px]  xl:h-[55px] xl:w-[150px] xl:pr-[60px] lg:w-[80px] lg:pr-10 lg:mt-14 mt-14   "
+              className="w-[40px] h-[35px]  lg:w-[80px] lg:pr-10 lg:mt-14 mt-14   "
               height={500}
               width={500}
               src="/typescript.png"
               alt="typescript"
             />
             <Image
-              className="h-[40px] w-[40px] xl:h-[62px] xl:w-[80px] lg:mt-[70px]  mt-16 ml-10 "
+              className="h-[40px] w-[40px]  lg:mt-[70px]  mt-16 ml-10 "
               height={500}
               width={500}
               src="/html.png"
@@ -134,7 +134,7 @@ const Home = () => (
           
           <div className=" xl:pt-32 pt-56 ">
             <Image
-              className="xl:h-[75px] xl:w-[65px]  h-[45px] w-[50px] rounded-xl"
+              className="  h-[45px] w-[50px] rounded-xl"
               height={500}
               width={500}
               src="/tailwindcss.png"
@@ -142,14 +142,14 @@ const Home = () => (
             />
 
             <Image
-              className="xl:h-[95px] xl:w-[145px]  h-[50px] w-[65px]    mt-10 lg:mt-14  xl:pl-12  sm:ml-7 ml-6 mr-14 sm:mr-0 lg:mr-4"
+              className="  h-[50px] w-[65px]    mt-10 lg:mt-14    sm:ml-7 ml-6 mr-14 sm:mr-0 lg:mr-4"
               height={500}
               width={500}
               src="/javascript.png"
               alt="javascript"
             />
             <Image
-              className="h-[40px] w-[45px] xl:h-[60px] xl:w-[90px] mt-16  mr-8 md:ml-12"
+              className="h-[40px] w-[45px] mt-16  mr-8 md:ml-12"
               height={500}
               width={500}
               src="/css1.png"
