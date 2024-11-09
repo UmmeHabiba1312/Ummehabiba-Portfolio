@@ -6,22 +6,24 @@ import { FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import AfterHero from "@/components/afterhero";
-import Services from "@/components/services";
+import Services from "@/components/myprojects";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
+import AboutMe from "@/components/aboutus";
+import Skills from "@/components/myskills";
 // import { Carousels } from "@/components/projectcarosel";
 // import Footer from "@/components/footer";
 
 const Home = () => (
   <>
-    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-r from-pink-300 to-black h-[630px] w-auto">
-      <div className="flex w-full h-[630px]">
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-[630px] w-[100vw]">
+      <div className="lg:flex w-full lg:h-[520px] h-auto bg-gradient-to-tr from-pink-300 to-gray-900">
         {/* left div */}
-        <div className="flex-1 w-[50%] pt-10">
-          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-4xl font-bold flex justify-center pt-16">
+        <div className="flex-1  lg:pt-20  h-auto w-[100vw]">
+          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-3xl font-bold flex justify-center pt-16">
             Hello I am
           </p>
-          <div className="  flex text-pink-900 lg:text-4xl xl:text-5xl md:text-5xl text-3xl font-bold  justify-center pt-5">
+          <div className="  flex text-pink-800 lg:text-4xl xl:text-5xl md:text-5xl text-3xl font-bold  justify-center pt-5">
             <Typewriter
               options={{
                 strings: ["Umm e Habiba","Full-Stack Developer"],
@@ -31,13 +33,13 @@ const Home = () => (
             />
           </div>
           <p className="text-gray-800 font-semibold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[18px] md:text-[18px] text-[16px]  pt-5">
-            I am Umm E Habiba, a full stack developer skilled in Next.js, <br />{" "}
+            I am Umm e habiba, a full stack developer skilled in Next.js, <br />{" "}
             TypeScript, and Tailwind CSS. I create efficient, seamless <br />{" "}
             web experiences from design to deployment.
           </p>
           {/* button */}
-          <div className="gap-2 lg:flex lg:pl-16 xl:pl-24 md:pl-10 sm:pl-4 pt-6 md:pt-8 block ">
-            <button className="hover:animate-shadow-pulse mt-2 px-3  sm:gap-1 md:gap-2 flex lg:px-2 sm:px-2 md:h-[55px] sm:h-[50px] justify-center items-center hover:border-pink-600 hover:border-[2px]  bg-black hover:bg-pink-500 rounded-[30px] sm:mt-4 ">
+          <div className="flex   pt-6 md:pt-8   items-center justify-center">
+            <button className="hover:animate-shadow-pulse mt-5 px-2 flex-row  sm:gap-1 md:gap-2 flex lg:px-2 sm:px-2 md:h-[55px] sm:h-[50px] h-[40px] justify-center items-center hover:border-white hover:border-[2px]  bg-pink-900 hover:bg-gray-900 rounded-[30px] sm:mt-4 ">
               <div className="">
                 <svg
                   className="animate-bounce"
@@ -57,8 +59,8 @@ const Home = () => (
               <Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link>
               </p>
             </button>
-            <div className=" flex pt-6  lg:gap-4 md:gap-2 lg:pl-8 md:pl-4 sm:pl-2 sm:gap-2 ">
-              <div className="md:text-5xl text-4xl text-black hover:text-blue-400">
+            <div className=" flex pt-6 gap-5 lg:gap-3 md:gap-2 lg:pl-4 md:pl-4 sm:pl-2 sm:gap-2  justify-center">
+              <div className="md:text-[39px] text-[40px] text-black hover:text-blue-400">
                 <Link
                   href="https://www.facebook.com/profile.php?id=61561757791609"
                   legacyBehavior
@@ -68,14 +70,14 @@ const Home = () => (
                   </a>
                 </Link>
               </div>
-              <div className="md:text-5xl text-4xl text-black hover:text-gray-700">
+              <div className="md:text-[39px] text-[40px] text-black hover:text-gray-700">
                 <Link href="https://x.com/UmmeHabiba1312" legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">
                     <FaSquareXTwitter />
                   </a>
                 </Link>
               </div>
-              <div className="md:text-5xl text-4xl text-black hover:text-blue-700">
+              <div className="md:text-[39px] text-[40px] text-black hover:text-blue-700">
                 <Link
                   href="https://www.linkedin.com/in/umm-e-habiba-86bb722b6/"
                   legacyBehavior
@@ -85,7 +87,7 @@ const Home = () => (
                   </a>
                 </Link>
               </div>
-              <div className="md:text-5xl text-4xl text-black hover:text-gray-600">
+              <div className="md:text-[39px] text-[40px] text-black hover:text-gray-600">
                 <Link
                   href="https://github.com/UmmeHabiba1312"
                   legacyBehavior
@@ -99,24 +101,24 @@ const Home = () => (
           </div>
         </div>
         {/* right div */}
-        <div className="flex-1 w-[50%] flex  lg:pl-12 pl-2 sm:pl-5">
-          <div className="pt-52 xl:pt-32 hidden lg:block">
+        <div className="flex-1 w-[100vw] flex  lg:pl-12  sm:pl-5 h-auto justify-center ">
+          <div className="pt-[220px] xl:pt-28  ">
             <Image
-              className=" xl:h-[105px] xl:w-[145px] h-[90px]  "
+              className=" xl:h-[105px] xl:w-[145px] h-[60px] w-[65px]  ml-8"
               height={500}
               width={500}
               src="/nextjs.png"
               alt="nextjs"
             />
             <Image
-              className="w-[45px] h-[45px] xl:h-[65px] xl:w-[165px] xl:pr-[35px] lg:w-[120px] lg:pr-10 mt-10 mr-2"
+              className="w-[40px] h-[35px]  xl:h-[65px] xl:w-[165px] xl:pr-[45px] lg:w-[80px] lg:pr-10 lg:mt-14 mt-14   "
               height={500}
               width={500}
               src="/typescript.png"
               alt="typescript"
             />
             <Image
-              className="h-[45px] w-[95px] xl:h-[72px] xl:w-[115px]  mt-[94px]  pl-[40px]"
+              className="h-[40px] w-[45px] xl:h-[72px] xl:w-[115px]  lg:mt-[70px]  mt-16 ml-10 "
               height={500}
               width={500}
               src="/html.png"
@@ -124,39 +126,43 @@ const Home = () => (
             />
           </div>
           <Image
-            className=" h-[630px] md:w-[320px] lg:w-[310px]v xl:w-[390px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
+            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[370px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
             height={500}
             width={500}
-            src="/hero.png"
+            src="/heroin.png"
             alt="profile pic"
           />
-          <div className="md:pt-52 xl:pt-32 pt-60 hidden lg:block">
+          
+          <div className=" xl:pt-32 pt-56 ">
             <Image
-              className="xl:h-[75px] xl:w-[65px]  h-[55px] w-[55px] rounded-xl"
+              className="xl:h-[75px] xl:w-[65px]  h-[45px] w-[50px] rounded-xl"
               height={500}
               width={500}
               src="/tailwindcss.png"
               alt="tailwind"
             />
+
             <Image
-              className="xl:h-[100px] xl:w-[140px] h-[70px]    mt-10 xl:pl-12 pl-6"
+              className="xl:h-[100px] xl:w-[150px]  h-[50px] w-[65px]    mt-10 lg:mt-14  xl:pl-12  sm:ml-7 ml-6 mr-14 sm:mr-0 "
               height={500}
               width={500}
               src="/javascript.png"
               alt="javascript"
             />
             <Image
-              className="h-[70px] w-[170px] xl:h-[90px] xl:w-[260px] mt-16  "
+              className="h-[40px] w-[45px] xl:h-[90px] xl:w-[260px] mt-16  mr-8 md:ml-6"
               height={500}
               width={500}
-              src="/css.png"
+              src="/css1.png"
               alt="html"
             />
           </div>
         </div>
       </div>
       <AfterHero />
+      <AboutMe/>
       <Services />
+      <Skills/>
       {/* <Carousels/> */}
     </main>
   </>

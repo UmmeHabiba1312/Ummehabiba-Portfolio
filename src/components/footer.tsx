@@ -7,7 +7,7 @@ const Footer = () => {
   return (
 
     <main className=''>
-      <div className='max-w-screen-2xl mx-auto h-[300px] w-full bg-gray-700'>
+      <div className='max-w-screen-2xl mx-auto h-[300px] w-[100vw] bg-gray-700'>
         {/* icons */}
         <div className='flex md:text-4xl text-3xl justify-around xl:px-[35%] md:px-[26%] sm:px-[19%] px-[14%] pt-24'>
           <div className='github p-4 bg-slate-300 hover:bg-slate-200 rounded-full'>
@@ -52,16 +52,16 @@ const Footer = () => {
         </div>
         {/* links */}
       <div className="  md:font-medium justify-between md:justify-around xl:px-96 lg:px-72  sm:px-24 px-16  pt-10 flex  lg:text-[16px] lg:font-semibold  ">
-          <div className="text-pink-600 hover:border-b-[3px] hover:border-pink-600"><Link href="/">Home</Link></div>
-          <div className="text-pink-600 hover:border-b-[3px] hover:border-pink-600"><Link href="/about">About</Link></div>
-          <div className="text-pink-600 hover:border-b-[3px] hover:border-pink-600"><Link href="/projects">Projects</Link></div>
-          <div className="text-pink-600 hover:border-b-[3px] hover:border-pink-600"><Link href="/skills">Skills</Link></div>
-          <div className="text-pink-600 hover:border-b-[3px] hover:border-pink-600"><Link href="/contact">Contact</Link></div>
+          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/">Home</Link></div>
+          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/about">About</Link></div>
+          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/projects">Projects</Link></div>
+          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/skills">Skills</Link></div>
+          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/contact">Contact</Link></div>
         </div>
       </div>
-        <div className='max-w-screen-2xl mx-auto h-[100px] bg-gray-900 justify-center text-center  lg:text-[16px] lg:font-semibold  text-slate-500 pt-5'>
-        <p>Crafted with passion and precision by Umm E Habiba.</p>
-          <p>@ All Rights Reserved by Umm e Habiba</p>
+        <div className='w-[100vw] max-w-screen-2xl mx-auto h-[100px] bg-gray-900 justify-center text-center  lg:text-[16px] lg:font-semibold  text-slate-500 pt-5'>
+        <p>Crafted with passion and precision by Muhammad Umar.</p>
+          <p>© All Rights Reserved by Muhammad Umar</p>
         </div>
 
     </main>

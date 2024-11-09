@@ -16,31 +16,31 @@ import {
 
 const Header = () => {
   return (
-    <><main className='max-w-screen-2xl mx-auto bg-gradient-to-r from-pink-300 to-black h-[100px]  pt-3 w-auto sticky'>
+    <><main className='max-w-screen-2xl mx-auto bg-gray-900 h-auto  pt-3 w-[100vw] sticky'>
         <div className='flex justify-around w-full'>
         
           <div className='flex lg:gap-20 '>
           
           {/* logo */}
           <div className=' text-center flex items-center'>  
-        <div className="text-2xl font-extrabold  text-gray-900 lg:text-3xl md:text-2xl  md:font-semibold font-serif items-center flex">
+        <div className="text-2xl font-extrabold  text-gray-300 lg:text-2xl md:text-2xl  md:font-semibold font-serif items-center flex">
           PORTFOLIO
         </div>
         </div>
           </div>
 
         {/* content div */}
-        <div className="hidden  sm:hidden md:hidden  md:font-medium lg:flex items-center text-gray-900  lg:text-[16px] lg:font-extrabold lg:gap-8">
-          <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/">Home</Link></div>
-          <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/about">About</Link></div>
-          <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/projects">Projects</Link></div>
-          <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/skills">Skills</Link></div>
-          <div className="hover:text-pink-900 hover:border-b-4 hover:border-pink-900"><Link href="/contact">Contact</Link></div>
+        <div className="hidden  sm:hidden md:hidden  md:font-medium lg:flex items-center   lg:text-[14px] lg:font-semibold lg:gap-1">
+          <div className="hover:text-gray-300 hover:border-4 px-4 rounded-xl py-2 hover:border-gray-700 hover:bg-gray-700 text-gray-300"><Link href="/">Home</Link></div>
+          <div className="hover:text-gray-300 hover:border-4 px-4 rounded-xl py-2 hover:border-gray-700 hover:bg-gray-700 text-gray-300"><Link href="/about">About</Link></div>
+          <div className="hover:text-gray-300 hover:border-4 px-4 rounded-xl py-2 hover:border-gray-700 hover:bg-gray-700 text-gray-300"><Link href="/projects">Projects</Link></div>
+          <div className="hover:text-gray-300 hover:border-4 px-4 rounded-xl py-2 hover:border-gray-700 hover:bg-gray-700 text-gray-300"><Link href="/skills">Skills</Link></div>
+          <div className="hover:text-gray-300 hover:border-4 px-4 rounded-xl py-2 hover:border-gray-700 hover:bg-gray-700 text-gray-300"><Link href="/contact">Contact</Link></div>
         </div>
 
-        <div className="h-[90px]  hidden lg:block"> 
+        <div className="h-[80px]  hidden lg:block"> 
                  {/* Button for download cv */}
-        <button className=" px-2 gap-1 mt-5 sm:gap-2 flex lg:px-2 sm:px-2 h-[55px] justify-center items-center bg-pink-700 hover:border-pink-700 hover:border-[2px] hover:bg-pink-500 rounded-[30px] sm:mt-5 ">
+        <button className=" px-2 gap-1 mt-5 sm:gap-1 flex lg:px-1 sm:px-1 h-[50px] justify-center items-center bg-pink-800  hover:border-pink-800 hover:border-2 hover:bg-pink-700 rounded-[30px] sm:mt-3 ">
           <div className="">
              <svg
              className="animate-bounce"
@@ -55,7 +55,7 @@ const Header = () => {
                 fill="#F8F8F8"
               />
             </svg></div>
-          <p className="lg:font-bold sm:font-semibold text-white "><Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link></p></button></div>
+          <p className=" sm:font-semibold  text-gray-100 "><Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link></p></button></div>
           {/* hamburger */}
       <div className='lg:hidden  '>
       <Sheet >
@@ -64,11 +64,11 @@ const Header = () => {
     </SheetTrigger>
   <SheetContent className='bg-pink-200'>
   <div className="  font-bold  items-center text-gray-900 text-xl">
-          <div className="hover:text-pink-900 "><Link href="/">Home</Link></div>
-          <div className="hover:text-pink-900"><Link href="/about">About</Link></div>
-          <div className="hover:text-pink-900"><Link href="/projects">Projects</Link></div>
-          <div className="hover:text-pink-900"><Link href="/skills">Skills</Link></div>
-          <div className="hover:text-pink-900"><Link href="/contact">Contact</Link></div>
+          <div className="hover:text-green-700 "><Link href="/">Home</Link></div>
+          <div className="hover:text-green-700"><Link href="/about">About</Link></div>
+          <div className="hover:text-green-700"><Link href="/projects">Projects</Link></div>
+          <div className="hover:text-green-700"><Link href="/skills">Skills</Link></div>
+          <div className="hover:text-green-700"><Link href="/contact">Contact</Link></div>
         </div>
   </SheetContent>
 </Sheet>

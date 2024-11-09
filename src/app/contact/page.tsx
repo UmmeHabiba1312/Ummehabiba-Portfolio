@@ -52,7 +52,7 @@ const Contact = () => {
 };
   return (
     <>
-   <main className='mx-auto max-w-screen-2xl bg-gray-200 min-h-[800px] h-auto'>
+   <main className='mx-auto max-w-screen-2xl bg-gray-200 min-h-[800px] h-auto w-[100vw] animate-fadeIn'>
   <hr />
   <div className='text-center h-auto'>
     <h1 className='pt-8 text-3xl md:text-3xl font-extrabold font-sans'>
