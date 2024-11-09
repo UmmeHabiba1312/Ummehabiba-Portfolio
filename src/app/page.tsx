@@ -117,7 +117,7 @@ const Home = () => (
               alt="typescript"
             />
             <Image
-              className="h-[40px] w-[45px] xl:h-[72px] xl:w-[115px]  lg:mt-[70px]  mt-16 ml-10 "
+              className="h-[40px] w-[40px] xl:h-[72px] xl:w-[90px] lg:mt-[70px]  mt-16 ml-10 "
               height={500}
               width={500}
               src="/html.png"
@@ -149,7 +149,7 @@ const Home = () => (
               alt="javascript"
             />
             <Image
-              className="h-[40px] w-[45px] xl:h-[90px] xl:w-[260px] mt-16  mr-8 md:ml-6"
+              className="h-[40px] w-[45px] xl:h-[80px] xl:w-[100px] mt-16  mr-8 md:ml-12"
               height={500}
               width={500}
               src="/css1.png"
