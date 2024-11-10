@@ -19,7 +19,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link>
+          <Link href="https://github.com/UmmeHabiba1312/simple-command-line-calculator" target="_blank" rel="noopener noreferrer">code</Link>
           </div> 
           </div>
       <div className='  h-[300px] mt-10'>
@@ -32,7 +32,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/ATM-MACHINE" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='  h-[300px] mt-10'>
         <div>
           <Image
@@ -43,7 +43,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Todo-List" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className=' h-[300px] mt-10'>
         <div>
           <Image
@@ -54,7 +54,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Currency-Converter" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className=' h-[300px] mt-10'>
         <div>
           <Image
@@ -65,7 +65,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Words-Counter" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className=' h-[300px] mt-10'>
         <div>
           <Image
@@ -76,7 +76,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Student_Management_System" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='  h-[300px] mt-10'>
         <div>
           <Image
@@ -87,7 +87,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Quiz-Game" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='  h-[300px] mt-10'>
         <div>
           <Image
@@ -98,7 +98,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Adventure-Game" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='bg-gray-900  h-[300px] mt-10'>
         <div>
           <Image
@@ -109,7 +109,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/Countdown-Timer" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='  h-[300px] mt-10'>
         <div>
           <Image
@@ -120,7 +120,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/OOP_Project" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       <div className='  h-[300px] mt-10'>
         <div>
           <Image
@@ -131,7 +131,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex j bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2 justify-center">
-          <Link href="">code</Link>
+          <Link href="https://github.com/UmmeHabiba1312/OOP_Mybank_Project" target="_blank" rel="noopener noreferrer">code</Link>
           </div> 
           </div>
       <div className='bg-gray-900 h-[300px] mt-10 rounde-[10px]'>
@@ -144,7 +144,7 @@ const Typescript = () => {
         alt="/"/>
         </div>
         <div className="flex justify-center bg-pink-900 hover:bg-pink-700 text-slate-300 font-bold rounded-2xl mx-16 py-1 mt-2">
-          <Link href="">code</Link></div> </div>
+          <Link href="https://github.com/UmmeHabiba1312/University-Managment-System" target="_blank" rel="noopener noreferrer">code</Link></div> </div>
       </div>
     </main>
   )

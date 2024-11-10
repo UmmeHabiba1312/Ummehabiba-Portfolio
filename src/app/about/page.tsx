@@ -56,24 +56,24 @@ const About = () => {
 
       {/* Education Section */}
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
-        <h3 className="text-xl font-bold text-pink-800">Bachelor's Degree in Commerce</h3>
+        <h3 className="text-xl font-bold text-pink-800">Bachelors Degree in Commerce</h3>
         <ul className="text-gray-600 mt-2  list-none">
           <li className='text-xl font-bold text-gray-800'>Unversity Of Karachi</li>
-          <li  className=' font-bold text-gray-500'>2023 - 2024</li>
+          <li  className=' font-bold text-gray-500'>{'2023 - 2024'}</li>
         </ul>
       </div>
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
-        <h3 className="text-xl font-bold text-pink-800">Intermediate (Pre-Medical)</h3>
+        <h3 className="text-xl font-bold text-pink-800">{'Intermediate (Pre-Medical)'}</h3>
         <ul className="text-gray-600 mt-2  list-none">
           <li className='text-xl font-bold text-gray-800'>Khursheed Girls College</li>
-          <li  className=' font-bold text-gray-500'>2020 - 2021</li>
+          <li  className=' font-bold text-gray-500'>{'2020 - 2021'}</li>
         </ul>
       </div>
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
         <h3 className="text-xl font-bold text-pink-800">Matriculation</h3>
         <ul className="text-gray-600 mt-2  list-none">
           <li className='text-xl font-bold text-gray-800'>Sun Bright School</li>
-          <li  className=' font-bold text-gray-500'>2023 - 2024</li>
+          <li  className=' font-bold text-gray-500'>{'2023 - 2024'}</li>
         </ul>
       </div>
 
@@ -90,7 +90,7 @@ const About = () => {
         </ul>
       </div>
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
-        <h3 className="text-xl font-bold text-pink-800">Intermediate (Pre-Medical)</h3>
+        <h3 className="text-xl font-bold text-pink-800">{'Intermediate (Pre-Medical)'}</h3>
         <ul className="text-gray-600 mt-2  list-none">
           <li className='text-xl font-bold text-gray-800'>Certified Agentic and Robotic AI Engineer</li>
           <li  className=' font-bold text-gray-500'>{'2024-2025 (Ongoing)'}</li>
