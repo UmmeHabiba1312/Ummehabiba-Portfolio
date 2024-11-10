@@ -7,9 +7,9 @@ const Skills = () => {
   return (
 
 <>
-<main className='max-w-screen-2xl mx-auto lg:h-[35rem] md:h-[40rem] h-[30rem] bg-slate-100 w-full'>
+<main className='max-w-screen-2xl mx-auto h-auto bg-slate-100 [w-100vw]'>
   <hr />
-  <div className='lg:pt-10 md:pt-20 sm:pt-[40px] pt-[30px]'>
+  <div className='lg:pt-10 md:pt-20 sm:pt-[40px] pt-[30px] h-auto'>
     <h3 className='flex justify-center text-3xl sm:text-4xl lg:text-3xl font-extrabold text-gray-900'>
       My <span className='text-pink-800 pl-4'>Skills</span>
     </h3>
@@ -28,14 +28,14 @@ const Skills = () => {
       </div>
     ))}
   </div>
-  <div className='flex flex-wrap mx-14 items-center justify-evenly  lg:font-bold font-semibold  md:text-2xl mt-4'>
-    <div className='flex-1 text-center'>Next.js</div>
+  <div className='flex flex-wrap mx-20 items-center justify-evenly  lg:font-bold font-semibold  md:text-2xl mt-4 '>
+    <div className='flex-1 text-center '>Next.js</div>
     <div className='flex-1 text-center'>Tailwind CSS/Css</div>
     <div className='flex-1 text-center'>TypeScript</div>
     <div className='flex-1 text-center'>HTML/JavaScript</div>
   </div>
   <Link href='/skills' className='flex justify-center items-center'>
-          <button className='bg-pink-800 border-2 border-pink-900 rounded-3xl py-2 px-6 text-slate-100 font-bold hover:bg-gray-900 hover:border-gray-500 mt-14 mb-5 lg:mb-0'>
+          <button className='bg-pink-800 border-2 border-pink-900 rounded-3xl py-2 px-6 text-slate-100 font-bold hover:bg-gray-900 hover:border-gray-500 mt-14 mb-10'>
             See More!
           </button>
         </Link>

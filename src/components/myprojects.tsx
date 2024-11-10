@@ -8,8 +8,8 @@ import Link from 'next/link';
 const Services = () => {
   return (
     <>
-    <main className='bg-pink-50 lg:h-[1100px] max-w-screen-2xl mx-auto h-auto w-auto animate-fadeIn'>
-        <div className=' text-center pt-10'>
+    <main className='bg-pink-50  max-w-screen-2xl mx-auto h-auto  animate-fadeIn w-[100vw]'>
+        <div className=' text-center pt-10 h-auto'>
             <h2 className='text-3xl sm:text-3xl font-bold text-gray-900'>See My <span className='text-pink-800 text-3xl sm:text-3xl font-bold '>Projects</span></h2>
             <p className='text-gray-500 font-sans mt-5 text-[18px] font-semibold'>I specialize in web development, creating responsive websites and apps with Next.js, TypeScript, <br /> and Tailwind CSS for clean code and great user experiences.</p>
 
@@ -97,11 +97,13 @@ const Services = () => {
                 </div>
                 </div>
             </div>
-            <Link href='/projects' className='flex justify-center items-center'>
-          <button className='bg-pink-800 border-2 border-pink-900 rounded-3xl py-2 px-6 text-slate-100 font-bold hover:bg-gray-900 hover:border-gray-500 mt-14 mb-5 lg:mb-0'>
+            <div className='flex justify-center'>
+               <Link href='/projects' className=''>
+          <button className='bg-pink-800 border-2 border-pink-900 rounded-3xl py-2 px-6 text-slate-100 font-bold hover:bg-gray-900 hover:border-gray-500 mt-14 mb-10 '>
             View More!
           </button>
         </Link>
+               </div>
         </div>
         
     </main>

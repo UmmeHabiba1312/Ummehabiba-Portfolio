@@ -34,7 +34,7 @@ export default function MySkills() {
               {skills.map((skill, index) => (
                   <div 
                       key={index} 
-                      className="rounded-xl bg-gray-200 pt-3 pb-2 sm:py-4  shadow-md flex flex-col items-center hover:shadow-xl hover:scale-105 transform transition-transform duration-300 ease-in-out"
+                      className="rounded-xl bg-gray-300 pt-3 pb-2 sm:py-4  shadow-md flex flex-col items-center hover:shadow-xl hover:scale-105 transform transition-transform duration-300 ease-in-out"
                   >
                       {/* Skill Image */}
                       <Image

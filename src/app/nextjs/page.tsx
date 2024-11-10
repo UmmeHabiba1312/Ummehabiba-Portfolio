@@ -8,8 +8,8 @@ import { BsArrowUpRightCircle } from 'react-icons/bs'
 const Nextjs = () => {
   return (
     <main className='h-auto w-[100vw]'>
-         <div>
-        <span className='flex justify-center text-2xl font-semibold text-black mt-4 '>Nextjs</span>
+         <div className=''>
+        <span className='flex justify-center text-2xl font-extrabold text-black pt-16 '>{'< Nextjs />'}</span>
         <div className='o1 mt-8 lg:mx-[10rem] rounded-lg bg-black h-[150px] flex items-center '>
           <div className='ml-4 md:ml-7 h-[80px] flex items-center flex-1 text-pink-800 text-3xl md:text-4xl  font-bold'>01</div>
           <div className='ml-3 md:ml-10'>
@@ -38,7 +38,7 @@ const Nextjs = () => {
         <div className='ml-4 md:ml-7 h-[80px] flex items-center flex-1 text-pink-800 text-3xl md:text-4xl  font-bold'>03</div>
           <div className='ml-3 md:ml-10'>
              <Image
-             className='h-[130px] w-[380px] md:w-[300px] rounded-md'
+             className='h-[130px] w-[380px] md:w-[400px] rounded-md'
             height={500}
             width={500}
             src="/port.PNG"

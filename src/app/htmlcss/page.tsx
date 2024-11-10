@@ -6,15 +6,15 @@ import Link from 'next/link'
 
 const HtmlCss = () => {
   return (
-   <main className="animate-fadeIn h-auto w-[100vw]">
+   <main className="animate-fadeIn h-auto w-[100vw] lg:pb-96 pb-[1300px]">
     <div className='h-auto'>
-      <h1 className='text-center font-bold mt-5 text-2xl'>Html/ Css/ JavaScript</h1>
-      <div className='grid lg:grid-cols-2 grid-cols-1 lg:mx-60 mx-20 sm:mx-44 md:mx-60 gap-10 h-[400px] mt-10'>
+      <h1 className='text-center font-extrabold mt-10 text-2xl'>{'< Html/ Css/ JavaScript />'}</h1>
+      <div className='grid lg:grid-cols-2 grid-cols-1 lg:mx-48 mx-20 sm:mx-40 md:mx-56 gap-10 h-[400px] mt-10'>
 
-        <div className="one text-center bg-gray-800 rounded-xl">
+        <div className="one text-center bg-gray-400 rounded-xl">
           <div className='flex justify-center'>
           <Image
-          className='h-[300px] w-[250px] rounded-xl text-center  mt-4 border-4 border-white '
+          className='h-[300px] w-[350px] rounded-xl text-center  mt-4 border-4 border-white '
           height={500}
           width={500}
           src="/rock.PNG"
@@ -29,10 +29,10 @@ const HtmlCss = () => {
             </div>
           </div>
         </div>
-        <div className="one text-center bg-gray-800 rounded-xl">
+        <div className="one text-center bg-gray-400 rounded-xl">
           <div className='flex justify-center'>
           <Image
-          className='h-[300px] w-[250px] rounded-xl text-center  mt-4 border-4 border-gray-700'
+          className='h-[300px] w-[350px] rounded-xl text-center  mt-4 border-4 border-gray-700'
           height={500}
           width={500}
           src="/tictac.PNG"
@@ -47,10 +47,10 @@ const HtmlCss = () => {
             </div>
           </div>
         </div>
-        <div className="one text-center bg-gray-800 rounded-xl ">
+        <div className="one text-center bg-gray-400 rounded-xl ">
           <div className='flex justify-center '>
           <Image
-          className='h-[300px] w-[250px] rounded-xl text-center mt-4 border-4 border-white'
+          className='h-[300px] w-[350px] rounded-xl text-center mt-4 border-4 border-white'
           height={500}
           width={500}
           src="/service-3.PNG"
@@ -65,10 +65,10 @@ const HtmlCss = () => {
             </div>
           </div>
         </div>
-        <div className="one text-center bg-gray-800 rounded-xl">
+        <div className="one text-center bg-gray-400 rounded-xl">
           <div className='flex justify-center'>
           <Image
-          className='h-[300px] w-[250px] rounded-xl text-center mt-4 border-4 border-gray-700'
+          className='h-[300px] w-[350px] rounded-xl text-center mt-4 border-4 border-gray-700'
           height={500}
           width={500}
           src="/resum.PNG"

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
 
     <main className=''>
-      <div className='max-w-screen-2xl mx-auto h-[300px] w-[100vw] bg-gray-700'>
+      <div className='max-w-screen-2xl mx-auto h-[300px] w-[100vw]  bg-gray-700'>
         {/* icons */}
         <div className='flex md:text-4xl text-3xl justify-around xl:px-[35%] md:px-[26%] sm:px-[19%] px-[14%] pt-24'>
           <div className='github p-4 bg-slate-300 hover:bg-slate-200 rounded-full'>

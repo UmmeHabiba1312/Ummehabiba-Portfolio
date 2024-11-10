@@ -16,7 +16,7 @@ import {
 
 const Header = () => {
   return (
-    <><main className='max-w-screen-2xl mx-auto bg-gray-900 h-auto  pt-3 w-[100vw] sticky'>
+    <><main className='max-w-screen-2xl mx-auto bg-gray-900 h-auto  pt-3 w-[100vw]  sticky'>
         <div className='flex justify-around w-full'>
         
           <div className='flex lg:gap-20 '>

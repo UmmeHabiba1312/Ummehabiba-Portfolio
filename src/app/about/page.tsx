@@ -15,7 +15,7 @@ const About = () => {
           className='h-[530px] w-[280px] rounded-full '
           height={500}
           width={500}
-          src="/hero.png"
+          src="/heroin.png"
           alt=""
         />
       </div>
@@ -24,7 +24,7 @@ const About = () => {
     <div className='w-full md:w-[60%] pt-20 pl-6 md:pl-10'>
       <p className='font-bold text-black text-[20px] md:text-[22px] mt-2 md:mt-3 lg:mt-4'>ABOUT ME</p>
       <h1 className='lg:text-[38px] font-bold sm:mt-6 mt-3 text-2xl'>Top Rated <span className='text-pink-800'>Full-Stack Developer</span></h1>
-      <p className='text-gray-600 font-semibold sm:mt-12 mt-6 text-[16px] md:text-[17px]'>I am Muhammad Umar, a Full-Stack Developer with expertise in Next.js, TypeScript, and <br /> Tailwind CSS. I create dynamic web applications that deliver seamless user experiences, <br /> driven by a passion for problem-solving and continuous learning.</p>
+      <p className='text-gray-600 font-semibold sm:mt-12 mt-6 text-[16px] md:text-[17px]'>I am Umm e Habiba, a Full-Stack Developer with expertise in Next.js, TypeScript, and <br /> Tailwind CSS. I create dynamic web applications that deliver seamless user experiences, <br /> driven by a passion for problem-solving and continuous learning.</p>
       {/* icon dives */}
       <div className='mt-10'>        
         <div className='flex flex-col md:flex-row md:gap-10 gap-6'>
@@ -51,6 +51,52 @@ const About = () => {
       </div>
     </div>
   </main>
+  <section id="about" className="bg-gray-200 py-16 px-6 sm:px-10 lg:px-20 max-w-screen-2xl mx-auto  w-[100vw] animate-fadeIn">
+      <h1 className='flex justify-center text-4xl font-bold text-gray-900'>Education</h1>
+
+      {/* Education Section */}
+      <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
+        <h3 className="text-xl font-bold text-pink-800">Bachelor's Degree in Commerce</h3>
+        <ul className="text-gray-600 mt-2  list-none">
+          <li className='text-xl font-bold text-gray-800'>Unversity Of Karachi</li>
+          <li  className=' font-bold text-gray-500'>2023 - 2024</li>
+        </ul>
+      </div>
+      <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
+        <h3 className="text-xl font-bold text-pink-800">Intermediate (Pre-Medical)</h3>
+        <ul className="text-gray-600 mt-2  list-none">
+          <li className='text-xl font-bold text-gray-800'>Khursheed Girls College</li>
+          <li  className=' font-bold text-gray-500'>2020 - 2021</li>
+        </ul>
+      </div>
+      <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
+        <h3 className="text-xl font-bold text-pink-800">Matriculation</h3>
+        <ul className="text-gray-600 mt-2  list-none">
+          <li className='text-xl font-bold text-gray-800'>Sun Bright School</li>
+          <li  className=' font-bold text-gray-500'>2023 - 2024</li>
+        </ul>
+      </div>
+
+
+      {/* Certifications Section */}
+      <h1 className='flex justify-center text-4xl font-bold text-gray-900 mt-16'>Certifications</h1>
+
+      {/* Education Section */}
+      <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
+        <h3 className="text-xl font-bold text-pink-800">Generative AI Web 3.0 and  Metaverse</h3>
+        <ul className="text-gray-600 mt-2  list-none">
+          <li className='text-xl font-bold text-gray-800'>Governor House Karachi</li>
+          <li  className=' font-bold text-gray-500'>{'2024-2025 (Ongoing)'}</li>
+        </ul>
+      </div>
+      <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
+        <h3 className="text-xl font-bold text-pink-800">Intermediate (Pre-Medical)</h3>
+        <ul className="text-gray-600 mt-2  list-none">
+          <li className='text-xl font-bold text-gray-800'>Certified Agentic and Robotic AI Engineer</li>
+          <li  className=' font-bold text-gray-500'>{'2024-2025 (Ongoing)'}</li>
+        </ul>
+      </div>
+    </section>
   <Footer />
 </>
 

@@ -15,7 +15,7 @@ import Skills from "@/components/myskills";
 
 const Home = () => (
   <>
-    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-[630px] w-[100vw]">
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-[630px] w-[100vw] ">
       <div className="lg:flex w-full lg:h-[520px] h-auto bg-gradient-to-tr from-pink-300 to-gray-900">
         {/* left div */}
         <div className="flex-1  lg:pt-20  h-auto w-[100vw]">
@@ -101,7 +101,7 @@ const Home = () => (
         </div>
         {/* right div */}
         <div className="flex-1 w-[100vw] flex  lg:pl-12  sm:pl-5 h-auto justify-center ">
-          <div className="pt-[220px] xl:pt-28  ">
+          <div className="pt-[220px]   ">
             <Image
               className=" h-[60px] w-[65px]  ml-8"
               height={500}
@@ -125,14 +125,14 @@ const Home = () => (
             />
           </div>
           <Image
-            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[370px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
+            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[320px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
             height={500}
             width={500}
             src="/heroin.png"
             alt="profile pic"
           />
           
-          <div className=" xl:pt-32 pt-56 ">
+          <div className="  pt-56 ">
             <Image
               className="  h-[45px] w-[50px] rounded-xl"
               height={500}
