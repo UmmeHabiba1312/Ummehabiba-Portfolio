@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='max-w-screen-2xl mx-auto h-[300px] w-[100vw]  bg-gray-700'>
         {/* icons */}
         <div className='flex md:text-4xl text-3xl justify-around xl:px-[35%] md:px-[26%] sm:px-[19%] px-[14%] pt-24'>
-          <div className='github p-4 bg-slate-300 hover:bg-slate-200 rounded-full'>
+          <div className='github sm:p-3 p-2 md:p-4 bg-slate-300 hover:bg-slate-200 rounded-full'>
           <Link
                   href="https://github.com/UmmeHabiba1312"
                   legacyBehavior
@@ -20,7 +20,7 @@ const Footer = () => {
                   </a>
                 </Link>
           </div>
-          <div className='Linkedin p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
+          <div className='Linkedin sm:p-3 p-2 md:p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
                   href="https://www.linkedin.com/in/umm-e-habiba-86bb722b6/"
                   legacyBehavior
                 >
@@ -28,7 +28,7 @@ const Footer = () => {
                   <FaLinkedin />
                   </a>
                 </Link></div>
-          <div className='facebook p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
+          <div className='facebook sm:p-3 p-2 md:p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
                   href="https://www.facebook.com/profile.php?id=61561757791609"
                   legacyBehavior
                 >
@@ -36,12 +36,12 @@ const Footer = () => {
                   <FaFacebook />
                   </a>
                 </Link></div>
-          <div className='twiter p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link href="https://x.com/UmmeHabiba1312" legacyBehavior>
+          <div className='twiter sm:p-3 p-2 md:p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link href="https://x.com/UmmeHabiba1312" legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">
                   <FaSquareXTwitter />
                   </a>
                 </Link></div>
-          <div className='instagram p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
+          <div className='instagram sm:p-3 p-2 md:p-4 bg-slate-300 hover:bg-slate-100 rounded-full'><Link
                   href="https://www.instagram.com/umm_e_habiba_official5/"
                   legacyBehavior
                 >
