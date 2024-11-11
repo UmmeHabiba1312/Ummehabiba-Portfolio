@@ -29,8 +29,10 @@ const Skills = () => {
         <div className="flex flex-wrap lg:mt-16 md:mt-20 sm:mt-15 mt-6 mx-8 items-center justify-evenly">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center mb-8">
-              <div className="animate-spin-slow xl:h-[12rem] xl:w-[12rem] lg:h-[10rem] sm:h-[9rem] lg:w-[10rem] sm:w-[9rem] md:h-[10rem] md:w-[10rem] h-[6rem] w-[6rem] rounded-full border-gray-950 lg:border-[0.8rem] sm:border-[0.7rem] border-[0.5rem] border-l-pink-800 flex justify-center items-center font-bold text-3xl">
-                {skill.percentage}
+              <div className="relative xl:h-[12rem] xl:w-[12rem] lg:h-[10rem] sm:h-[9rem] lg:w-[10rem] sm:w-[9rem] md:h-[10rem] md:w-[10rem] h-[6rem] w-[6rem] rounded-full border-gray-950 lg:border-[0.8rem] sm:border-[0.7rem] border-[0.5rem] flex justify-center items-center font-bold text-3xl">
+                {/* Inner rotating pink border */}
+                <div className="absolute inset-0 rounded-full  lg:border-[0.8rem] sm:border-[0.7rem] border-[0.5rem] animate-spin-slow"></div>
+                <span className="z-10">{skill.percentage}</span>
               </div>
               <p className="text-center font-semibold md:text-2xl mt-2">
                 {skill.name}
