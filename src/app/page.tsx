@@ -125,7 +125,7 @@ const Home = () => (
             />
           </div>
           <Image
-            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[320px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
+            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[300px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
             height={500}
             width={500}
             src="/heroin.png"
