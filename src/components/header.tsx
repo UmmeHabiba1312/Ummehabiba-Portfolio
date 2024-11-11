@@ -64,11 +64,11 @@ const Header = () => {
     </SheetTrigger>
   <SheetContent className='bg-pink-200'>
   <div className="  font-bold  items-center text-gray-900 text-xl">
-          <div className="hover:text-green-700 "><Link href="/">Home</Link></div>
-          <div className="hover:text-green-700"><Link href="/about">About</Link></div>
-          <div className="hover:text-green-700"><Link href="/projects">Projects</Link></div>
-          <div className="hover:text-green-700"><Link href="/skills">Skills</Link></div>
-          <div className="hover:text-green-700"><Link href="/contact">Contact</Link></div>
+          <div className="hover:text-gray-700 text-pink-800 "><Link href="/">Home</Link></div>
+          <div className="hover:text-gray-700 text-pink-800"><Link href="/about">About</Link></div>
+          <div className="hover:text-gray-700 text-pink-800"><Link href="/projects">Projects</Link></div>
+          <div className="hover:text-gray-700 text-pink-800"><Link href="/skills">Skills</Link></div>
+          <div className="hover:text-gray-700 text-pink-800"><Link href="/contact">Contact</Link></div>
         </div>
   </SheetContent>
 </Sheet>
