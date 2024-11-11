@@ -90,9 +90,9 @@ const About = () => {
         </ul>
       </div>
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
-        <h3 className="text-xl font-bold text-pink-800">{'Intermediate (Pre-Medical)'}</h3>
+        <h3 className="text-xl font-bold text-pink-800">Certified Agentic and Robotic AI Engineer</h3>
         <ul className="text-gray-600 mt-2  list-none">
-          <li className='text-xl font-bold text-gray-800'>Certified Agentic and Robotic AI Engineer</li>
+          <li className='text-xl font-bold text-gray-800'>PIAIC</li>
           <li  className=' font-bold text-gray-500'>{'2024-2025 (Ongoing)'}</li>
         </ul>
       </div>
