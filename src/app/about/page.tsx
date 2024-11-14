@@ -7,7 +7,7 @@ import Footer from '@/components/footer';
 const About = () => {
   return (
     <>
-  <main className='max-w-screen-2xl mx-auto bg-gray-300 h-auto min-h-[100vh]  flex flex-col md:flex-row font-sans pt-6 w-[100vw] animate-fadeIn'>
+  <main className='max-w-screen-2xl mx-auto bg-gray-300 h-auto min-h-[100vh]  flex flex-col md:flex-row font-sans pt-6  w-full overflow-hidden animate-fadeIn'>
     {/* left div */}
     <div className='w-full md:w-[40%] pt-12 flex justify-center'>
       <div className='h-[530px] rounded-full  bg-gray-900 w-[350px] md:w-[450px] flex justify-center'>
@@ -51,7 +51,7 @@ const About = () => {
       </div>
     </div>
   </main>
-  <section id="about" className="bg-gray-200 py-16 px-6 sm:px-10 lg:px-20 max-w-screen-2xl mx-auto  w-[100vw] animate-fadeIn">
+  <section id="about" className="bg-gray-200 py-16 px-6 sm:px-10 lg:px-20 max-w-screen-2xl mx-auto  w-full overflow-hidden animate-fadeIn">
       <h1 className='flex justify-center text-4xl font-bold text-gray-900'>Education</h1>
 
       {/* Education Section */}
@@ -90,9 +90,9 @@ const About = () => {
         </ul>
       </div>
       <div className="mt-10 max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 text-center transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg animate-fade-in-up">
-        <h3 className="text-xl font-bold text-pink-800">Certified Agentic and Robotic AI Engineer</h3>
+        <h3 className="text-xl font-bold text-pink-800">{'Intermediate (Pre-Medical)'}</h3>
         <ul className="text-gray-600 mt-2  list-none">
-          <li className='text-xl font-bold text-gray-800'>PIAIC</li>
+          <li className='text-xl font-bold text-gray-800'>Certified Agentic and Robotic AI Engineer</li>
           <li  className=' font-bold text-gray-500'>{'2024-2025 (Ongoing)'}</li>
         </ul>
       </div>
