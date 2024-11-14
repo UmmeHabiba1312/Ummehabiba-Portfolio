@@ -13,7 +13,7 @@ import Typescript from '../typescript/page';
 
 const Projects = () => {
   return (
-    <><main className='max-w-screen-2xl mx-auto bg-gray-100 pb-20 w-[100vw] animate-fadeIn'>
+    <><main className='max-w-screen-2xl mx-auto bg-gray-100 pb-20 w-full overflow-hidden animate-fadeIn'>
      < ProjectsHeader/>
      <Nextjs/>
      <HtmlCss/>
