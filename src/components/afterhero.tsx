@@ -2,7 +2,7 @@ import React from 'react'
 
 const AfterHero = () => {
   return (
-    <main className='w-[100vw]  h-[70px] bg-black flex text-white justify-evenly items-center '>
+    <main className='w-full overflow-hidden  h-[70px] bg-black flex text-white justify-evenly items-center '>
         <div className='flex-1 gap-1 md:gap-2 items-center flex justify-center'>
             {/* <p className='text-2xl md:text-3xl font-bold pl-3'>01</p> */}
             <p className=' text-gray-300 md:font-bold '>One Year experience</p>
