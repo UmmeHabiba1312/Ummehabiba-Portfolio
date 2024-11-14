@@ -13,7 +13,7 @@ const Skills = () => {
 
   return (
     <>
-      <main className="max-w-screen-2xl mx-auto h-auto bg-slate-100 [w-100vw]">
+      <main className="max-w-screen-2xl mx-auto h-auto bg-slate-100 w-full overflow-x-hidden">
         <hr />
         <div className="lg:pt-10 md:pt-20 sm:pt-[40px] pt-[30px] h-auto">
           <h3 className="flex justify-center text-3xl sm:text-4xl lg:text-3xl font-extrabold text-gray-900">
