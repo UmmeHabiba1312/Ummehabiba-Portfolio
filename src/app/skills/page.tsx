@@ -21,7 +21,7 @@ export default function MySkills() {
     return (
       <>
       <main className="animate-fadeIn">
-        <div className="max-w-screen-2xl mx-auto bg-gray-300 px-6 md:px-10 lg:px-14 py-12 rounded-lg shadow-lg pb-40 w-[100vw]">
+        <div className="max-w-screen-2xl mx-auto bg-gray-300 px-6 md:px-10 lg:px-14 py-12 rounded-lg shadow-lg pb-40 w-full overflow-hidden">
            <h2 className={`text-pink-800 text-2xl md:text-3xl lg:text-4xl font-bold text-center pt-2 sm:pt-4`}>
             My Skills
           </h2>
