@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Services = () => {
   return (
     <>
-    <main className='bg-pink-50  max-w-screen-2xl mx-auto h-auto  animate-fadeIn w-[100vw]'>
+    <main className='bg-pink-50  max-w-screen-2xl mx-auto h-auto  animate-fadeIn w-full overflow-hidden'>
         <div className=' text-center pt-10 h-auto'>
             <h2 className='text-3xl sm:text-3xl font-bold text-gray-900'>See My <span className='text-pink-800 text-3xl sm:text-3xl font-bold '>Projects</span></h2>
             <p className='text-gray-500 font-sans mt-5 text-[18px] font-semibold'>I specialize in web development, creating responsive websites and apps with Next.js, TypeScript, <br /> and Tailwind CSS for clean code and great user experiences.</p>
