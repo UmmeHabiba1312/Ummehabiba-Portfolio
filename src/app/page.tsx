@@ -15,10 +15,10 @@ import Skills from "@/components/myskills";
 
 const Home = () => (
   <>
-    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-[630px] w-[100vw] ">
-      <div className="lg:flex w-full lg:h-[520px] h-auto bg-gradient-to-tr from-pink-300 to-gray-900">
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-auto w-full overflow-x-hidden">
+      <div className="lg:flex w-full lg:h-[500px] h-auto bg-gradient-to-tr from-pink-300 to-gray-600 lg:to-gray-900  overflow-hidden">
         {/* left div */}
-        <div className="flex-1  lg:pt-20  h-auto w-[100vw]">
+        <div className="flex-1  lg:pt-20  h-auto w-full overflow-hidden">
           <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-3xl font-bold flex justify-center pt-16">
             Hello I am
           </p>
@@ -58,7 +58,7 @@ const Home = () => (
               <Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link>
               </p>
             </button>
-            <div className=" flex pt-6 gap-5 lg:gap-3 md:gap-2 lg:pl-4 md:pl-4 sm:pl-2 sm:gap-2  justify-center">
+            <div className=" flex pt-6  lg:gap-3 md:gap-2 lg:pl-4 md:pl-4 sm:pl-2 sm:gap-2  justify-center">
               <div className="md:text-[39px] text-[40px] text-black hover:text-blue-400">
                 <Link
                   href="https://www.facebook.com/profile.php?id=61561757791609"
@@ -100,7 +100,7 @@ const Home = () => (
           </div>
         </div>
         {/* right div */}
-        <div className="flex-1 w-[100vw] flex  lg:pl-12  sm:pl-5 h-auto justify-center ">
+        <div className="flex-1 w-full overflow-hidden flex  lg:pl-12  sm:pl-5 h-auto justify-center pt-3 lg:pt-0">
           <div className="pt-[220px]   ">
             <Image
               className=" h-[60px] w-[65px]  ml-8"
@@ -125,7 +125,7 @@ const Home = () => (
             />
           </div>
           <Image
-            className=" h-[520px] md:w-[320px] lg:w-[300px] xl:w-[300px]  sm:w-[350px] w-[270px] justify-center pl-5  text-center"
+            className=" h-[500px] md:w-[300px]  lg:w-[300px] xl:w-[300px]  sm:w-[290px] w-[270px] justify-center pl-5  text-center"
             height={500}
             width={500}
             src="/heroin.png"
@@ -158,12 +158,13 @@ const Home = () => (
           </div>
         </div>
       </div>
-      <AfterHero />
+      
+    </main>
+    <AfterHero />
       <AboutMe/>
       <Services />
       <Skills/>
       {/* <Carousels/> */}
-    </main>
   </>
 );
 
