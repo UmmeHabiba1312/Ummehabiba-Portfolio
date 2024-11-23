@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <main className='bg-slate-100 text-center animate-fadeIn w-full overflow-hidden '>
       <div className='pt-20 pb-20'>
-        <h2 className='font-bold text-5xl text-pink-800'>About Me</h2>
+        <h2 className='font-bold text-4xl text-pink-800'>About Me</h2>
         <p className='text-gray-600 px-6 md:px-20 lg:px-60 pt-7 text-lg'>
           Hello! I am <span className='text-black font-semibold'>Umm e Habiba</span>, a passionate full stack web developer.
           I thrive on creating dynamic, responsive, and user-centric web applications, blending creativity with technical expertise.
