@@ -23,7 +23,7 @@ const Header = () => {
             {/* Logo */}
             <div className='text-center flex items-center'>  
               <div className="text-2xl font-extrabold text-gray-300 lg:text-2xl md:text-2xl md:font-semibold font-serif items-center flex">
-                PORTFOLIO
+               <Link href="/"> PORTFOLIO</Link>
               </div>
             </div>
           </div>
