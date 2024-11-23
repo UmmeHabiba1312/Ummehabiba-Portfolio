@@ -16,7 +16,7 @@ const Skills = () => {
       <main className="max-w-screen-2xl mx-auto h-auto bg-slate-100 w-full overflow-x-hidden">
         <hr />
         <div className="lg:pt-10 md:pt-20 sm:pt-[40px] pt-[30px] h-auto">
-          <h3 className="flex justify-center text-3xl sm:text-4xl lg:text-3xl font-extrabold text-gray-900">
+          <h3 className="flex justify-center text-4xl lg:text-3xl font-extrabold text-gray-900">
             My <span className="text-pink-800 pl-4">Skills</span>
           </h3>
           <p className="pt-8 text-gray-500 font-medium flex justify-center mx-4 lg:mx-[14rem] text-[16px] sm:text-[17px]">
