@@ -51,12 +51,12 @@ const Footer = () => {
                 </Link></div>
         </div>
         {/* links */}
-      <div className="  md:font-medium justify-between md:justify-around xl:px-96 lg:px-72  sm:px-24 px-16  pt-10 flex  lg:text-[16px] lg:font-semibold  w-full overflow-hidden">
-          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/">Home</Link></div>
-          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/about">About</Link></div>
-          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/projects">Projects</Link></div>
-          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/skills">Skills</Link></div>
-          <div className="text-pink-700 hover:border-b-[3px] hover:border-pink-700"><Link href="/contact">Contact</Link></div>
+      <div className="  md:font-medium justify-between md:justify-around xl:px-96 lg:px-72  sm:px-24  px-5   pt-10 flex  lg:text-[16px] lg:font-semibold  w-full overflow-hidden">
+          <div className="text-gray-200 hover:border-b-[3px] hover:border-gray-200"><Link href="/">Home</Link></div>
+          <div className="text-gray-200 hover:border-b-[3px] hover:border-gray-200"><Link href="/about">About</Link></div>
+          <div className="text-gray-200 hover:border-b-[3px] hover:border-gray-200"><Link href="/projects">Projects</Link></div>
+          <div className="text-gray-200 hover:border-b-[3px] hover:border-gray-200"><Link href="/skills">Skills</Link></div>
+          <div className="text-gray-200 hover:border-b-[3px] hover:border-gray-200"><Link href="/contact">Contact</Link></div>
         </div>
       </div>
         <div className='w-full overflow-hidden max-w-screen-2xl mx-auto h-[100px] bg-gray-900 justify-center text-center  lg:text-[16px] lg:font-semibold  text-slate-500 pt-5'>
