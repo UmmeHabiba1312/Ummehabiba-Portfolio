@@ -15,14 +15,14 @@ import Skills from "@/components/myskills";
 
 const Home = () => (
   <>
-    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-300 to-gray-900 h-auto w-full overflow-x-hidden">
-      <div className="lg:flex w-full lg:h-[500px] h-auto bg-gradient-to-tr from-pink-300 to-gray-600 lg:to-gray-900  overflow-hidden">
+    <main className="max-w-screen-2xl mx-auto font-sans bg-gradient-to-tr from-pink-200 to-gray-900 h-auto w-full overflow-x-hidden">
+      <div className="lg:flex w-full lg:h-[500px] h-auto bg-gradient-to-tr from-pink-200 to-gray-600 lg:to-gray-900  overflow-hidden">
         {/* left div */}
-        <div className="flex-1  lg:pt-20  h-auto w-full overflow-hidden">
-          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-3xl font-bold flex justify-center pt-16">
+        <div className="flex-1  lg:pt-20  h-auto w-full overflow-hidden pl-20">
+          <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-3xl font-bold flex  pt-16">
             Hello I am
           </p>
-          <div className="  flex text-pink-800 lg:text-4xl xl:text-5xl md:text-5xl text-3xl font-bold  justify-center pt-5">
+          <div className="  flex text-pink-800 lg:text-4xl xl:text-5xl md:text-5xl text-3xl font-bold   pt-5">
             <Typewriter
               options={{
                 strings: ["Umm e Habiba","Full-Stack Developer"],
@@ -31,13 +31,13 @@ const Home = () => (
               }}
             />
           </div>
-          <p className="text-gray-800 font-semibold md:font-semibold flex pl-6 lg:pl-0 justify-center lg:text-[18px] md:text-[18px] text-[16px]  pt-5">
+          <p className="text-gray-800 font-semibold md:font-semibold flex lg:pl-0  lg:text-[18px] md:text-[18px] text-[16px]  pt-5">
             I am Umm e habiba, a full stack developer skilled in Next.js, <br />{" "}
             TypeScript, and Tailwind CSS. I create efficient, seamless <br />{" "}
             web experiences from design to deployment.
           </p>
           {/* button */}
-          <div className="flex   pt-6 md:pt-8   items-center justify-center">
+          <div className="flex   pt-6 md:pt-8   items-center ">
             <button className="hover:animate-shadow-pulse mt-5 px-2 flex-row  sm:gap-1 md:gap-2 flex lg:px-2 sm:px-2 md:h-[55px] sm:h-[50px] h-[40px] justify-center items-center hover:border-white hover:border-[2px]  bg-pink-900 hover:bg-gray-900 rounded-[30px] sm:mt-4 ">
               <div className="">
                 <svg
@@ -54,7 +54,7 @@ const Home = () => (
                   />
                 </svg>
               </div>
-              <p className="lg:font-bold sm:font-semibold  text-white ">
+              <p className="lg:font-bold sm:font-semibold  text-white px-2">
               <Link href="/mycv.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</Link>
               </p>
             </button>
