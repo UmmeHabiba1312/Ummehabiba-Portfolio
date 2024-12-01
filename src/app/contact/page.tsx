@@ -8,14 +8,16 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Link from 'next/link';
-import { Terminal } from "lucide-react"
+// import { Terminal } from "lucide-react"
+import { toast } from 'react-toastify';
  
-import {
-  Alert,
-  AlertDescription,
-  AlertTitle,
-} from "@/components/ui/alert"
+// import {
+//   Alert,
+//   AlertDescription,
+//   AlertTitle,
+// } from "@/components/ui/alert"
 import Footer from '@/components/footer';
+// import toast from 'react-hot-toast';
 
 
 
@@ -39,15 +41,9 @@ const Contact = () => {
     });
     const result = await response.json();
     if (result.success) {
-      <Alert>
-      <Terminal className="h-4 w-4" />
-      <AlertTitle>Heads up!</AlertTitle>
-      <AlertDescription>
-        You can add components to your app using the cli.
-      </AlertDescription>
-    </Alert>
-      
-        console.log(result);
+      toast.success('Message Sent Successfully!');
+    } else{
+      toast.error('Failed to send message. Please try again later.');
     }
 };
   return (
