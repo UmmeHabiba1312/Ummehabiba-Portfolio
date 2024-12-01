@@ -46,7 +46,7 @@ const Header = () => {
 
           {/* Download CV Button */}
           <div className="h-[80px] hidden lg:block"> 
-            <button className="px-2 gap-1 mt-5 sm:gap-1 flex lg:px-1 sm:px-1 h-[50px] justify-center items-center bg-pink-800 hover:border-pink-800 hover:border-2 hover:bg-pink-700 rounded-[30px] sm:mt-3">
+            <button className="px-2 gap-1 mt-5 sm:gap-1 flex lg:px-4 sm:px-1 h-[50px] justify-center items-center bg-pink-800 hover:border-pink-800 hover:border-2 hover:bg-pink-700 rounded-[30px] sm:mt-3">
               <div>
                 <svg className="animate-bounce" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
