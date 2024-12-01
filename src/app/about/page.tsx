@@ -73,7 +73,7 @@ const About = () => {
         <h3 className="text-xl font-bold text-pink-800">Matriculation</h3>
         <ul className="text-gray-600 mt-2  list-none">
           <li className='text-xl font-bold text-gray-800'>Sun Bright School</li>
-          <li  className=' font-bold text-gray-500'>{'2023 - 2024'}</li>
+          <li  className=' font-bold text-gray-500'>{'2018 - 2019'}</li>
         </ul>
       </div>
 
