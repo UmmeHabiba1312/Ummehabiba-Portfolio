@@ -20,7 +20,7 @@ const Home = () => (
         {/* left div */}
         <div className="flex-1  lg:pt-20  h-auto w-full overflow-hidden pl-4 sm:pl-6 md:pl-20">
           <p className="text-gray-900 text-2xl sm:text-2xl md:text-4xl lg:text-3xl font-bold flex  pt-16">
-            Hello I am habiba
+            Hello I am 
           </p>
           <div className="  flex text-pink-800 lg:text-4xl xl:text-5xl md:text-5xl text-3xl font-bold   pt-5">
             <Typewriter
