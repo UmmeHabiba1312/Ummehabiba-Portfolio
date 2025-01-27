@@ -4,7 +4,7 @@ import Footer from '@/components/footer';
 import ProjectsHeader from '@/components/projectsheader';
 import Nextjs from '../nextjs/page';
 import HtmlCss from '../htmlcss/page';
-import Typescript from '../typescript/page';
+// import Typescript from '../typescript/page';
 
 
 
