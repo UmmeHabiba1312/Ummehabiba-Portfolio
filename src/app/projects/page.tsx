@@ -17,7 +17,7 @@ const Projects = () => {
      < ProjectsHeader/>
      <Nextjs/>
      <HtmlCss/>
-    <Typescript/>
+{/*     <Typescript/> */}
       
     </main>
         <Footer/>
