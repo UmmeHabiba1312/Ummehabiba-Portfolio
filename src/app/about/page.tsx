@@ -15,7 +15,7 @@ const About = () => {
           className='h-[530px] w-[280px] rounded-full '
           height={500}
           width={500}
-          src="/heroin.png"
+          src="/hero.png"
           alt=""
         />
       </div>
