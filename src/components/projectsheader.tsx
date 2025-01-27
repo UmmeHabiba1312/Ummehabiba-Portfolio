@@ -27,7 +27,7 @@ const ProjectsHeader = () => {
         <SelectGroup className=''>
         <Link href="/projects" className='hover:text-gray-400 hover:border-b-2 hover:border-gray-400'>All</Link><br />
           <Link href="/htmlcss" className='hover:text-gray-400 hover:border-gray-400 hover:border-b-2'>Html/Css/JavaScript</Link><br />
-          <Link href="/typescript" className='hover:text-gray-400 hover:border-gray-400 hover:border-b-2'>TypeScript</Link><br />
+{/*           <Link href="/typescript" className='hover:text-gray-400 hover:border-gray-400 hover:border-b-2'>TypeScript</Link><br /> */}
           <Link href="/nextjs" className='hover:text-gray-400 hover:border-gray-400 hover:border-b-2'>Nextjs</Link>
         </SelectGroup>
       </SelectContent>
